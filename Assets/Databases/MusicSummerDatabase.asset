@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad1834691b0b6b48860610d482d56db, type: 3}
+  m_Name: MusicSummerDatabase
+  m_EditorClassIdentifier: 
+  musicDatas:
+    menuMusic: 0
+    audioClip: {fileID: 8300000, guid: 3ffd403b83af7c843b71b803face15e6, type: 3}
+    Bpm: 106
+    firstBpmDelay: 0
+  ObjectSpawns:
+  - SpawnBeat: 4
+    Lane: 2
+    elementType: 7
+  - SpawnBeat: 6
+    Lane: 2
+    elementType: 0
+  - SpawnBeat: 8
+    Lane: 3
+    elementType: 6
+  - SpawnBeat: 10
+    Lane: 2
+    elementType: 0
+  - SpawnBeat: 12
+    Lane: 1
+    elementType: 5
+  - SpawnBeat: 14
+    Lane: 1
+    elementType: 1
+  - SpawnBeat: 16
+    Lane: 2
+    elementType: 0
+  - SpawnBeat: 18
+    Lane: 2
+    elementType: 0
+  - SpawnBeat: 20
+    Lane: 3
+    elementType: 2
+  - SpawnBeat: 22
+    Lane: 1
+    elementType: 3
+  - SpawnBeat: 25
+    Lane: 3
+    elementType: 7
+  - SpawnBeat: 28
+    Lane: 2
+    elementType: 3
+  - SpawnBeat: 29
+    Lane: 1
+    elementType: 5
+  - SpawnBeat: 31
+    Lane: 1
+    elementType: 6
+  - SpawnBeat: 33
+    Lane: 2
+    elementType: 3
+  - SpawnBeat: 35
+    Lane: 3
+    elementType: 1
+  - SpawnBeat: 37
+    Lane: 3
+    elementType: 0
+  - SpawnBeat: 39
+    Lane: 2
+    elementType: 5
+  - SpawnBeat: 41
+    Lane: 3
+    elementType: 3
+  - SpawnBeat: 44
+    Lane: 1
+    elementType: 2
+  - SpawnBeat: 46
+    Lane: 2
+    elementType: 5

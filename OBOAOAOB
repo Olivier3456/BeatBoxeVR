@@ -1,0 +1,390 @@
+[33mcommit 48779fc88edeb1550bc644adf5ac19fd4c0bfd1a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 30 07:56:25 2023 +0200
+
+    Refactorisation Game Manager : UI manager, Music manager created
+
+[33mcommit 1e9ccfee6d00a7e2d1ed493726175735b79d00af[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Wed Mar 29 16:22:18 2023 +0200
+
+    Correcting the prefabs types that got reset, initializing toDoge and toParry type inside the class as they shouldn't and won't be changed from the inspector
+
+[33mcommit 3c18e938a49006787e19bda8055e9970f76e6e35[m
+Merge: 4db73a9 e09882a
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 28 18:26:37 2023 +0200
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit 4db73a929b6086c4a5a400ca8c25f2e9ccf16653[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 28 18:26:13 2023 +0200
+
+    Very minor changes to Game Manager and Spawner
+
+[33mcommit e09882a2680e6c4e1461a205250c8783e63f3832[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 28 16:27:48 2023 +0200
+
+    unserialize some parameters from the inspector in the prefabs as they shouldn't be changed there anyway and are assigned during the creation of the game objects
+
+[33mcommit 51755d0fe7fd2f3984b92d702b871467055ecb09[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 28 15:19:50 2023 +0200
+
+    slight renaming of parameters
+
+[33mcommit 8fa3f87944aabf8f6fe1354f332ce80bd83675bd[m
+Merge: f6a7ddf 2880930
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 28 15:18:59 2023 +0200
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit f6a7ddf65847dabb26f0ec57c8a1f90e792c76c0[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 28 15:17:43 2023 +0200
+
+    Added a static class to check the controllers velocity, todoge and toparry score and multiplayer calculation finished, tohit done but not taking into account the timing yet
+
+[33mcommit 2880930aa44d09942cc754ecd8fbd657bbfd764e[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 28 14:28:16 2023 +0200
+
+    SFX volume slider now linked to all (3) sfx audio sources
+
+[33mcommit ae17088b649fa3c7142a4b7ea7480bc84bb3a1f0[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 28 14:05:23 2023 +0200
+
+    Pause menu functional + some adjustments on some menus
+
+[33mcommit 372fd1802e9e922381dae38f1125157ee09cccfb[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Mon Mar 27 17:34:56 2023 +0200
+
+    Reworking UI functionalities
+
+[33mcommit 1efcc52295139ad8fb2b0cbb4a0ce44f37a6a540[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Mon Mar 27 15:24:10 2023 +0200
+
+    Added sound effets for perfect shots and multiplier change
+
+[33mcommit 0a78d1bdbb323667f55e28cc4bcbb9b6a7913436[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Fri Mar 24 19:04:13 2023 +0100
+
+    BPM Anims now synchro with BPM event invoked by GM.
+
+[33mcommit 4b525e09adc262451232ffcba318a9321f44478f[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Fri Mar 24 17:08:07 2023 +0100
+
+    ToDodge correceted
+
+[33mcommit 6376fa31b372a904bcd59128df25c89b7741c892[m
+Merge: 83096d0 a446e15
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Fri Mar 24 17:02:17 2023 +0100
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit 83096d0c51e0c5c578ccf26404575b9e3d3628b8[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Fri Mar 24 17:01:39 2023 +0100
+
+    Checking type of attack works, correcting faulty element prefabs
+
+[33mcommit a446e158677fafac5bd773655f180b119caad8cb[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Fri Mar 24 17:00:47 2023 +0100
+
+    Multiple changes
+
+[33mcommit aaa659cf90c17237ab3e7bc19c5a36d1d93da57d[m
+Merge: 3eadd5a 0bbffd8
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Fri Mar 24 13:54:05 2023 +0100
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit 3eadd5ad2f8f1bf694d8c52a5fcdf4843f70f71a[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Fri Mar 24 13:53:14 2023 +0100
+
+    some slight refactoring
+
+[33mcommit 0bbffd8e34a69bab19c4c4c2aee9184945d101cb[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Fri Mar 24 10:33:35 2023 +0100
+
+    Better music for menu
+
+[33mcommit b8b029d53b908c085a5cf7ba845f79c831fe15ce[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Fri Mar 24 10:28:30 2023 +0100
+
+    Better UI & music gestion
+
+[33mcommit 82bbb9f7e160170c9f905119bed7de7866ee00c9[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Fri Mar 24 08:29:40 2023 +0100
+
+    A little work on gm and ui
+
+[33mcommit d1412333a16858f5775c83eeedd50fd1dbfcfc7c[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 23 22:44:08 2023 +0100
+
+    Databases now contains all music datas
+
+[33mcommit 116b486b563db31e0c4f45bc4df3a56e3308e5b4[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 23 18:23:50 2023 +0100
+
+    Object animation on BPM
+
+[33mcommit 841091538ed396bc4f02f161a520a00447c77771[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 23 17:28:57 2023 +0100
+
+    Spawner now can instantiate new game objects when the pool is empty
+
+[33mcommit 479c1222fdebd664b3c42a76037f0f4f4e662fb4[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Wed Mar 22 16:18:50 2023 +0100
+
+    Dropdown now rename its fields with clip names
+
+[33mcommit 631252b4eee1acfa3c7e562432c167cf56f39128[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 21 17:17:25 2023 +0100
+
+    Building Music choice Dropdown OK
+
+[33mcommit 7ede5bd29576a4c3396d80c57c8a48ebfd8c34ce[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 21 16:39:40 2023 +0100
+
+    Spawn OK
+
+[33mcommit 1d345ba8d241dc12a887bcf4da39cb1aa86e0667[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 16:19:12 2023 +0100
+
+    Turning the prefabs so that they face the player
+
+[33mcommit 7bf0b06936cbbd51f5a92178db0fd159ac382021[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 21 16:13:55 2023 +0100
+
+    Work on spawn elements
+
+[33mcommit 50c2f432d318084ad4f0c9f74170ea0f25dd3d54[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 15:45:34 2023 +0100
+
+    Two more prefabs for toParry and toDodge
+
+[33mcommit a488114a14c0c49aa608535174ac615d86d35b27[m
+Merge: 624c3ee ff303f7
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 15:16:17 2023 +0100
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit 624c3ee346e6b31798585b57e148443d8889e51f[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 15:16:06 2023 +0100
+
+    Added prefabs for all attacks
+
+[33mcommit ff303f7b1f76271083355fce3b5388d48b3f5a0b[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 21 15:11:24 2023 +0100
+
+    Added some audio clips
+
+[33mcommit 5ea742212e19ac66ab3bebc183ff27b0c7c73d8b[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 14:48:19 2023 +0100
+
+    Added a ring without ropes on a side
+
+[33mcommit edf55beb579e7ff40eeb608bb0f4cd09798171ef[m
+Merge: 4fd6b03 a1c32de
+Author: RaoulRah <raoul.dev.2021@gmail.com>
+Date:   Tue Mar 21 14:33:57 2023 +0100
+
+    conflict
+
+[33mcommit 4fd6b0370aa315dce2dade4d56c54516a3316d0f[m
+Author: RaoulRah <raoul.dev.2021@gmail.com>
+Date:   Tue Mar 21 13:52:50 2023 +0100
+
+     mise en place du ring
+
+[33mcommit a1c32dea150c091f7efacf81273318f8778383c0[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 21 13:43:09 2023 +0100
+
+    Game Manager now can reads Database and spawn objects
+
+[33mcommit b50533f0c808f7f8b45d1254c95388f3f2bc8a12[m
+Merge: c8120e6 94c1f3b
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 21 11:54:04 2023 +0100
+
+    Merge changes
+
+[33mcommit 94c1f3b11bc0efb8b947b5a312d99fe8b0458e97[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 11:46:06 2023 +0100
+
+    some more work on different elements
+
+[33mcommit c8120e648342f91a2299ebd266d1315b3d1e0ce1[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 21 11:45:47 2023 +0100
+
+    Working on a database for spawn events
+
+[33mcommit b00c5bde382a5931ebf4a411315995bd75ac5f7e[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 09:53:26 2023 +0100
+
+    minor changes to instance of game manager and making toParryElement work with it
+
+[33mcommit 5877ab8ea09034b312bbec1aa6a8e6da73797c52[m
+Merge: 43724a8 8070914
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 09:41:02 2023 +0100
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit 43724a87cb4df1a9106a3bfb4b1af63477f2ac7e[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 21 09:41:00 2023 +0100
+
+    Update to toParryElements
+
+[33mcommit 8070914b2b64dd9c710e2defb29955c0e484714f[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 16 18:27:27 2023 +0100
+
+    Reworking UI
+
+[33mcommit 155433d65353a92e684cd8f993ca5891efcf90d6[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 16 17:18:19 2023 +0100
+
+    Working on UI
+
+[33mcommit 4a9a2ff9fe2cce7aeb0a8be5a90bb940213aa021[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 16 16:59:56 2023 +0100
+
+    Countdown for start-restart music OK
+
+[33mcommit 35e7c48f1dc6316d61e5c51ab07e830d96af17d2[m
+Merge: d794f33 cdbcc8e
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Thu Mar 16 15:31:18 2023 +0100
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit d794f33f061abbd44a57e43eeb5f70ee204ee13f[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Thu Mar 16 15:31:14 2023 +0100
+
+    not quite finished elements to parry
+
+[33mcommit cdbcc8ec6f4339cf8a0d3aa610611ccaf48f1e66[m
+Merge: af3a72e 68ead70
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 16 15:27:12 2023 +0100
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit af3a72ed2da34ed850374e60b3fba6ee9000b3e9[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 16 15:26:09 2023 +0100
+
+    Main menu, Pause menu & Options menu suite
+
+[33mcommit 136115ccd3ff4177d91ede19b9162776f3379b5f[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Thu Mar 16 14:32:41 2023 +0100
+
+    Main menu, Pause menu & Options menu
+
+[33mcommit 68ead70db1417bdeb159ce18373ef0117df9320e[m
+Merge: 656f1b2 734d805
+Author: RaoulRah <raoul.dev.2021@gmail.com>
+Date:   Thu Mar 16 14:31:41 2023 +0100
+
+     environnement ring gloves and lights
+
+[33mcommit 656f1b23f4d9f3a1f3e434ea0276f06a586ecf23[m
+Author: RaoulRah <raoul.dev.2021@gmail.com>
+Date:   Thu Mar 16 14:14:31 2023 +0100
+
+    mise en place de l'environnement, ring lights and gloves vr
+
+[33mcommit 734d805eec31bf92b37779c8e419afba3d44bf9d[m
+Merge: c98f6e5 ec3172c
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Wed Mar 15 17:15:54 2023 +0100
+
+    Merge branch 'main' of https://github.com/Kuba7eichen/BeatBoxe
+
+[33mcommit c98f6e595170cf107baecff3f9158b8e5eec7d3b[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Wed Mar 15 17:14:38 2023 +0100
+
+    First steps of hittable elements and attack type checking
+
+[33mcommit ec3172c7a698d75cb9e2a4b674e4fe87d103e541[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Wed Mar 15 16:33:29 2023 +0100
+
+    Spawner class refactoring
+
+[33mcommit 00727654327525a02b055513e37e43980ee4f4f5[m
+Merge: 1a6819d 6b5a9d8
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Wed Mar 15 14:04:05 2023 +0100
+
+    Working on Spawner class
+
+[33mcommit 1a6819d8665f264749ed73f13597816721aca52f[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 14 17:15:03 2023 +0100
+
+    début du travail
+
+[33mcommit 6b5a9d802ae709a0917be5e9a106360327419ce6[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 14 17:09:58 2023 +0100
+
+    Adding a parent class for all moving elements
+
+[33mcommit 4addf029b82d35ddff926f9326156088e3ec55bc[m
+Author: Olivier3456 <olivier.larrey@gmail.com>
+Date:   Tue Mar 14 16:14:10 2023 +0100
+
+    VR Origin functional
+
+[33mcommit bbcaada75a29aec653e71d54688c8930940733e2[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 14 15:45:12 2023 +0100
+
+    Initial Commit
+
+[33mcommit beae4f1e3a60b1a5652eee96fbd5a3a0bcc78217[m
+Author: Kuba7eichen <kuba.siebeneichen@gmail.com>
+Date:   Tue Mar 14 15:43:50 2023 +0100
+
+    Initial commit
